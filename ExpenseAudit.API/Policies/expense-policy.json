@@ -1,0 +1,33 @@
+{
+  "rules": [
+    {
+      "ruleId": "EXP001",
+      "name": "Meal Limit",
+      "category": "Meal",
+      "maxAmount": 75,
+      "severity": "High",
+      "enabled": true
+    },
+    {
+      "ruleId": "EXP002",
+      "name": "Alcohol Restriction",
+      "category": "All",
+      "severity": "Critical",
+      "enabled": true
+    },
+    {
+      "ruleId": "EXP003",
+      "name": "Merchant Required",
+      "category": "All",
+      "severity": "Medium",
+      "enabled": true
+    },
+    {
+      "ruleId": "EXP004",
+      "name": "Amount Required",
+      "category": "All",
+      "severity": "High",
+      "enabled": true
+    }
+  ]
+}
